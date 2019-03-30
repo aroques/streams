@@ -20,6 +20,18 @@
       "description": "this stream dude!",
       "userId": "106971528808574641304",
       "id": 4
+    },
+    {
+      "title": "testing programmatic navigation",
+      "description": "i should end up on home page",
+      "userId": "106971528808574641304",
+      "id": 5
+    },
+    {
+      "title": "testing",
+      "description": "edotomg! editing!",
+      "userId": "106971528808574641304",
+      "id": 6
     }
   ]
 }
