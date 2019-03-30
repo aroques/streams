@@ -2,31 +2,6 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 
 class StreamForm extends React.Component {
-  renderError({ error, touched }) {
-    if (touched && error) {
-      return (
-        <div className='ui error message'>
-          <div>{error}</div>
-        </div>
-      );
-    }
-  }
-
-  renderInput = ({ input, label, meta }) => {
-    const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
-    return (
-      <div className={className}>
-        <label>{label}</label>
-        <input {...input} />
-        {this.renderError(meta)}
-      </div>
-    );
-  };
-
-  onSubmit = formValues => {
-    this.props.onSubmit(formValues);
-  };
-
   render() {
     return (
       <form
@@ -43,6 +18,31 @@ class StreamForm extends React.Component {
       </form>
     );
   }
+
+  renderInput = ({ input, label, meta }) => {
+    const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
+    return (
+      <div className={className}>
+        <label>{label}</label>
+        <input {...input} />
+        {this.renderError(meta)}
+      </div>
+    );
+  };
+
+  renderError({ error, touched }) {
+    if (touched && error) {
+      return (
+        <div className='ui error message'>
+          <div>{error}</div>
+        </div>
+      );
+    }
+  }
+
+  onSubmit = formValues => {
+    this.props.onSubmit(formValues);
+  };
 }
 
 const validate = formValues => {
