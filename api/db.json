@@ -16,10 +16,16 @@
       "id": 3
     },
     {
-      "title": "testing programmatic navigation",
+      "title": "testing programmatic nav",
       "description": "i should end up on home page",
       "userId": "106971528808574641304",
       "id": 5
+    },
+    {
+      "title": "mah new stream",
+      "description": "ok fine, I'll add a description",
+      "userId": "106971528808574641304",
+      "id": 6
     }
   ]
 }
