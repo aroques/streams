@@ -6,7 +6,7 @@ Here is the Homepage:
 ![Streams Homepage](https://github.com/aroques/streams/blob/master/img/streams-home.png)  
 
 Here is a Stream Detail page:
-![Stream Detail](https://github.com/aroques/streams/blob/master/img/stream-detail)
+![Stream Detail](https://github.com/aroques/streams/blob/master/img/stream-detail.png)
 
 # Start the web app
 In all 3 project directories API, rtmpserver and client project make sure you run:
