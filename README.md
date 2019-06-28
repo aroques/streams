@@ -2,6 +2,9 @@
 
 Create and stream videos with a react redux web app
 
+![Streams Homepage](https://github.com/aroques/streams/blob/master/img/streams-home.png)
+![Stream Detail](https://github.com/aroques/streams/blob/master/img/stream-detail
+
 # Start the web app
 In all 3 project directories API, rtmpserver and client project make sure you run:
 
